@@ -63,10 +63,25 @@ main {
 .pricing {
   margin: 10px;
   display: flex;
+  height: 300px;
+  width: 400px;
+
   flex-direction: column;
   align-items: center;
 }
 
 .best-price {
   text-transform: uppercase;
+}
+
+.paragraph {
+  padding-top: 20px;
+}
+
+.best-price {
+  margin-top: 20px;
+}
+
+.buttons {
+  padding: 10px 0 0 10px;
 }
